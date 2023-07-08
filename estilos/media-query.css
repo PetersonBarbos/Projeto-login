@@ -5,9 +5,11 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c52);
     }
     section{
+        height: 300px;
         width: 80vw;
         transition: width 1s, height 1s;
         transition-timing-function: ease;
+
     }
     #imagem{
         float: left;
@@ -24,17 +26,24 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c52);
     }
     section{
+        height: 350px;
         width: 950px;
         transition: width 1s, height 1s;
         transition-timing-function: ease;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+    #formulario h1{
+        font-size: 2em;
+    }
+    #formulario p{
+        font-size: 1.2em;
     }
 }
